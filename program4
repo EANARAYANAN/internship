@@ -1,0 +1,14 @@
+import sys
+
+phrase=raw_input("Enter the string")
+txt=phrase.split()
+
+answer=[]
+check=len(sys.argv)-1
+if check:
+	for word in txt:
+		if len(word)<5:
+			answer.append(word)
+		else:
+			answer.append(sys.argv[1])
+print answer
