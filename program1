@@ -1,0 +1,15 @@
+parag=" Words make a sentence. Words are sometimes longer than five letters."
+content= parag.split()
+a=''
+for word in content:
+	if len(word)>5:
+		a=word[len(word)-1]
+		if a.isalpha():
+			print word
+		else:
+			a=word[len(word)-2]
+			b=len(word)-1
+			if a.isalpha():
+				print word[0:b]
+	else:
+		continue
