@@ -1,0 +1,5 @@
+Enter the stringthis is a statement. This is expected to be doing something.
+['this', 'is', 'a', 'me', 'This', 'is', 'me', 'to', 'be', 'me', 'me']
+ananth@ananth-VirtualBox:~/internship$ python program4.py
+Enter the stringThis is a statement. This is expected to be doing something.
+[]
